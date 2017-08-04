@@ -1,0 +1,22 @@
+{
+    "name": "subcosm-probe/http",
+    "description": "HTTP Request and Response Foundation",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Matthias Kaschubowski",
+            "email": "nihylum@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2",
+        "subcosm-probe/primitives": "~0.1",
+        "subcosm-probe/container": "~0.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Singularity\\Http\\": "./src"
+        }
+    }
+}
